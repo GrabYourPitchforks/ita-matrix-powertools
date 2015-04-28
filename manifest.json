@@ -1,0 +1,12 @@
+﻿{
+  "manifest_version": 2,
+
+  "name": "ITA Matrix Powertools",
+  "description": "Adds functionality to the ITA Matrix fare search site.",
+  "version": "1.0",
+
+  "content_scripts": [{
+	"matches": ["http://matrix.itasoftware.com/*"],
+	"js": ["ita-matrix-powertools.user.js"]
+  }]
+}
