@@ -7,6 +7,6 @@
 
   "content_scripts": [{
 	"matches": ["http://matrix.itasoftware.com/*"],
-	"js": ["ita-matrix-powertools.user.js"]
+	"js": ["ita-matrix-powertools.user.js", "united-helper.js"]
   }]
 }
